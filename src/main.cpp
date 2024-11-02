@@ -100,19 +100,19 @@ void loop()
 
     if (leftNudgeButton.pressed())
     {
-      Keyboard.press('z'); // Start game
+      Keyboard.press('z'); // nudge left
     }
     if (leftNudgeButton.released())
     {
-      Keyboard.release('z'); // Start game
+      Keyboard.release('z'); // nudge left
     }
 
     if (rightNudgeButton.pressed())
     {
-      Keyboard.press('/'); // Start game
+      Keyboard.press('/'); // nudge right
     }
     if (rightNudgeButton.released())
     {
-      Keyboard.release('/'); // Start game
+      Keyboard.release('/'); // nudge right
     }
 }
